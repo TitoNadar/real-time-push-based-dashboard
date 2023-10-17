@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Tito Nadar <titonadar06@gmail.com> (https://www.linkedin.com/in/tito-nadar/)",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.12.1",
+    "graphql": "^16.8.1",
+    "graphql-redis-subscriptions": "^2.6.0",
+    "graphql-subscriptions": "^2.0.0",
+    "ioredis": "^5.3.2",
+    "moment": "^2.29.4",
+    "nodemon": "^3.0.1"
+  }
+}
